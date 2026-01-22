@@ -33,3 +33,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# github workflows (임시 - 토큰 권한 설정 후 제거)
+.github/workflows/
