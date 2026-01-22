@@ -3,6 +3,7 @@
 import Image from "next/image";
 import PhotoGallery from "./components/PhotoGallery";
 import { useLanguage } from "./contexts/LanguageContext";
+import { getImagePath } from "./utils/imagePath";
 
 export default function Home() {
   const { t } = useLanguage();
@@ -24,7 +25,7 @@ export default function Home() {
             <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-pink-200 to-purple-200 mb-6 flex items-center justify-center overflow-hidden shadow-xl">
               {/* 프로필 사진 - public/images/profile.jpg로 교체 가능 */}
               <Image
-                src="/images/profile.jpg"
+                src={getImagePath("/images/profile.jpg")}
                 alt="Profile"
                 width={192}
                 height={192}

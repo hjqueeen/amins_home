@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";
+import { getImagePath } from "../utils/imagePath";
 
 interface PhotoGalleryProps {
   photos: string[];
@@ -55,7 +56,7 @@ export default function PhotoGallery({ photos }: PhotoGalleryProps) {
             onClick={() => setSelectedIndex(index)}
           >
             <Image
-              src={`/images/${photo}`}
+              src={getImagePath(`/images/${photo}`)}
               alt={`Portfolio photo ${index + 1}`}
               fill
               className="object-cover group-hover:scale-110 transition-transform duration-300"
@@ -129,7 +130,7 @@ export default function PhotoGallery({ photos }: PhotoGalleryProps) {
             {/* 이미지 */}
             <div className="relative w-full h-full flex items-center justify-center">
               <Image
-                src={`/images/${photos[selectedIndex]}`}
+                src={getImagePath(`/images/${photos[selectedIndex]}`)}
                 alt={`Portfolio photo ${selectedIndex + 1}`}
                 width={1200}
                 height={1200}
