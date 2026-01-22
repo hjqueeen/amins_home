@@ -39,12 +39,6 @@ export default function Navigation() {
     }
   };
 
-  const languages: { code: Language; name: string; flag: string }[] = [
-    { code: "ko", name: "한국어", flag: "🇰🇷" },
-    { code: "en", name: "English", flag: "🇺🇸" },
-    { code: "de", name: "Deutsch", flag: "🇩🇪" },
-  ];
-
   return (
     <nav className="fixed left-0 top-0 h-full w-64 bg-white/95 backdrop-blur-sm shadow-xl z-40 flex flex-col hidden md:flex">
       {/* 네비게이션 메뉴 */}
