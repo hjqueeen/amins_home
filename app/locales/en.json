@@ -12,13 +12,17 @@
   },
   "about": {
     "title": "About Me",
+    "background": {
+      "title": "Background",
+      "description": "I was born in Cheongju, South Korea, and moved to Germany in 2018. After attending Kita and elementary school, I am currently in 7th grade at a Gymnasium."
+    },
     "experience": {
       "title": "Music Activities",
-      "description": "I play the double bass in an orchestra. Through music, I am developing teamwork and expressiveness, and I believe these experiences will help me in acting as well."
+      "description": "I play the double bass in both my school orchestra and a local orchestra. Through music, I am developing teamwork and expressiveness, and I believe these experiences will help me in acting as well."
     },
     "interests": {
       "title": "Interests",
-      "description": "I especially love drawing and share my artwork on Instagram. I also enjoy playing the double bass and exploring animations and cultures from different countries. These diverse experiences will add depth and richness to my acting."
+      "description": "I especially love drawing and share my artwork on Instagram (@imjune0_0). I also enjoy playing the double bass and exploring animations and cultures from different countries. These diverse experiences will add depth and richness to my acting."
     }
   },
   "portfolio": {

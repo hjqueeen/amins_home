@@ -12,13 +12,17 @@
   },
   "about": {
     "title": "Über mich",
+    "background": {
+      "title": "Hintergrund",
+      "description": "Ich wurde in Cheongju, Südkorea, geboren und zog 2018 nach Deutschland. Nach dem Besuch von Kita und Grundschule bin ich derzeit in der 7. Klasse eines Gymnasiums."
+    },
     "experience": {
       "title": "Musikaktivitäten",
-      "description": "Ich spiele Kontrabass in einem Orchester. Durch die Musik entwickle ich Teamarbeit und Ausdrucksfähigkeit, und ich glaube, dass diese Erfahrungen mir auch beim Schauspiel helfen werden."
+      "description": "Ich spiele Kontrabass sowohl im Schulorchester als auch in einem lokalen Orchester. Durch die Musik entwickle ich Teamarbeit und Ausdrucksfähigkeit, und ich glaube, dass diese Erfahrungen mir auch beim Schauspiel helfen werden."
     },
     "interests": {
       "title": "Interessen",
-      "description": "Ich liebe es besonders zu zeichnen und teile meine Kunstwerke auf Instagram. Ich genieße auch das Kontrabassspielen und die Erkundung von Animationen und Kulturen verschiedener Länder. Diese vielfältigen Erfahrungen werden meinem Schauspiel Tiefe und Reichtum verleihen."
+      "description": "Ich liebe es besonders zu zeichnen und teile meine Kunstwerke auf Instagram (@imjune0_0). Ich genieße auch das Kontrabassspielen und die Erkundung von Animationen und Kulturen verschiedener Länder. Diese vielfältigen Erfahrungen werden meinem Schauspiel Tiefe und Reichtum verleihen."
     }
   },
   "portfolio": {

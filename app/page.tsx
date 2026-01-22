@@ -54,7 +54,15 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
             {t("about.title")}
           </h2>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                {t("about.background.title")}
+              </h3>
+              <p className="text-gray-600">
+                {t("about.background.description")}
+              </p>
+            </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">
                 {t("about.experience.title")}
@@ -96,15 +104,6 @@ export default function Home() {
           </p>
           <div className="flex flex-col items-center gap-6">
             <div className="flex flex-col items-center gap-2">
-              <p className="text-sm text-gray-500">{t("contact.email")}</p>
-              <a
-                href="mailto:hjqueeen@gmail.com"
-                className="text-xl font-semibold text-purple-600 hover:text-purple-700 transition-colors"
-              >
-                {t("contact.emailAddress")}
-              </a>
-            </div>
-            <div className="flex flex-col items-center gap-2">
               <p className="text-sm text-gray-500">{t("contact.sns")}</p>
               <a
                 href="https://www.instagram.com/imjune0_0"
@@ -130,6 +129,15 @@ export default function Home() {
                 <p className="text-sm text-gray-500 font-normal">
                   {t("contact.instagramDescription")}
                 </p>
+              </a>
+            </div>
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-sm text-gray-500">{t("contact.email")}</p>
+              <a
+                href="mailto:hjqueeen@gmail.com"
+                className="text-xl font-semibold text-purple-600 hover:text-purple-700 transition-colors"
+              >
+                {t("contact.emailAddress")}
               </a>
             </div>
           </div>
