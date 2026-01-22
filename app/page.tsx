@@ -29,8 +29,11 @@ export default function Home() {
                 alt="Profile"
                 width={192}
                 height={192}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover select-none"
                 priority
+                draggable={false}
+                onContextMenu={(e) => e.preventDefault()}
+                onDragStart={(e) => e.preventDefault()}
               />
             </div>
           </div>

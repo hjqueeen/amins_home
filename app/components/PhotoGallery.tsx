@@ -52,15 +52,20 @@ export default function PhotoGallery({ photos }: PhotoGalleryProps) {
         {photos.map((photo, index) => (
           <div
             key={index}
-            className="relative aspect-square rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer"
+            className="relative aspect-square rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer image-container"
             onClick={() => setSelectedIndex(index)}
+            onContextMenu={(e) => e.preventDefault()}
+            onDragStart={(e) => e.preventDefault()}
           >
             <Image
               src={getImagePath(`/images/${photo}`)}
               alt={`Portfolio photo ${index + 1}`}
               fill
-              className="object-cover group-hover:scale-110 transition-transform duration-300"
+              className="object-cover group-hover:scale-110 transition-transform duration-300 select-none"
               sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+              draggable={false}
+              onContextMenu={(e) => e.preventDefault()}
+              onDragStart={(e) => e.preventDefault()}
               onError={(e) => {
                 // 이미지 로드 실패 시 처리
                 const target = e.target as HTMLImageElement;
@@ -128,14 +133,21 @@ export default function PhotoGallery({ photos }: PhotoGalleryProps) {
             )}
 
             {/* 이미지 */}
-            <div className="relative w-full h-full flex items-center justify-center">
+            <div 
+              className="relative w-full h-full flex items-center justify-center image-container"
+              onContextMenu={(e) => e.preventDefault()}
+              onDragStart={(e) => e.preventDefault()}
+            >
               <Image
                 src={getImagePath(`/images/${photos[selectedIndex]}`)}
                 alt={`Portfolio photo ${selectedIndex + 1}`}
                 width={1200}
                 height={1200}
-                className="max-w-full max-h-[90vh] object-contain rounded-lg"
+                className="max-w-full max-h-[90vh] object-contain rounded-lg select-none"
                 priority
+                draggable={false}
+                onContextMenu={(e) => e.preventDefault()}
+                onDragStart={(e) => e.preventDefault()}
               />
             </div>
           </div>
