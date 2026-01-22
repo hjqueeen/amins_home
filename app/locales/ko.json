@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "home": "홈",
+    "about": "소개",
+    "portfolio": "포트폴리오",
+    "contact": "연락처"
+  },
+  "hero": {
+    "greeting": "안녕하세요, 저는 Amin입니다",
+    "subtitle": "13세 · 영화 배우 지원자",
+    "description": "영화와 연기에 대한 열정을 가지고 있는 13세 학생입니다. 다양한 역할을 통해 감동을 전달하고 싶습니다."
+  },
+  "about": {
+    "title": "About Me",
+    "experience": {
+      "title": "연기 경험",
+      "description": "학교 연극, 동아리 활동 등을 통해 연기에 대한 열정을 키워왔습니다."
+    },
+    "interests": {
+      "title": "관심사",
+      "description": "영화 감상, 독서, 다양한 캐릭터 연구를 좋아합니다."
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "연락을 원하시면 아래 이메일로 문의해주세요.",
+    "email": "contact@example.com"
+  },
+  "footer": {
+    "copyright": "© 2024 Amin. All rights reserved."
+  }
+}
