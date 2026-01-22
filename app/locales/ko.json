@@ -7,18 +7,18 @@
   },
   "hero": {
     "greeting": "안녕하세요, 저는 Amin입니다",
-    "subtitle": "13세 · 영화 배우 지원자",
-    "description": "영화와 연기에 대한 열정을 가지고 있는 13세 학생입니다. 다양한 역할을 통해 감동을 전달하고 싶습니다."
+    "subtitle": "12세 · 영화 배우 지원자",
+    "description": "미술, 오케스트라 음악과 영화에 대한 열정을 가지고 있는 12세 학생입니다. 연기 경험은 아직 없지만, 제 연기를 통해 감정을 전달하고 다양한 캐릭터의 이야기를 표현하고 싶습니다."
   },
   "about": {
     "title": "About Me",
     "experience": {
-      "title": "연기 경험",
-      "description": "학교 연극, 동아리 활동 등을 통해 연기에 대한 열정을 키워왔습니다."
+      "title": "음악 활동",
+      "description": "오케스트라에서 더블베이스 포지션으로 활동하고 있습니다. 음악을 통해 팀워크와 표현력을 키워가고 있으며, 이러한 경험이 연기에도 도움이 될 것이라고 믿습니다."
     },
     "interests": {
       "title": "관심사",
-      "description": "영화 감상, 독서, 다양한 캐릭터 연구를 좋아합니다."
+      "description": "그림 그리는 것을 특히 좋아하며, 제가 그린 작품들을 인스타그램에 올리고 있습니다. 더블베이스 연주, 애니메이션과 다양한 나라의 문화를 탐구하는 것도 즐깁니다. 이러한 다양한 경험들이 제 연기에 깊이와 풍부함을 더해줄 것입니다."
     }
   },
   "portfolio": {
@@ -26,8 +26,13 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "연락을 원하시면 아래 이메일로 문의해주세요.",
-    "email": "contact@example.com"
+    "description": "연락을 원하시면 아래로 문의해주세요.",
+    "email": "이메일",
+    "emailAddress": "hjqueeen@gmail.com",
+    "sns": "SNS",
+    "instagram": "Instagram",
+    "instagramHandle": "@imjune0_0",
+    "instagramDescription": "그림 작품을 올리는 SNS 계정"
   },
   "footer": {
     "copyright": "© 2024 Amin. All rights reserved."

@@ -7,18 +7,18 @@
   },
   "hero": {
     "greeting": "Hallo, ich bin Amin",
-    "subtitle": "13 Jahre alt · Aspirierender Filmschauspieler",
-    "description": "Ich bin eine 13-jährige Schülerin mit einer Leidenschaft für Film und Schauspiel. Ich möchte durch verschiedene Rollen Emotionen vermitteln."
+    "subtitle": "12 Jahre alt · Aspirierender Filmschauspieler",
+    "description": "Ich bin eine 12-jährige Schülerin mit einer Leidenschaft für Kunst, Orchestermusik und Film. Obwohl ich noch keine Schauspielerfahrung habe, möchte ich durch mein Schauspiel Emotionen vermitteln und die Geschichten verschiedener Charaktere zum Ausdruck bringen."
   },
   "about": {
     "title": "Über mich",
     "experience": {
-      "title": "Schauspielerfahrung",
-      "description": "Ich habe meine Leidenschaft für das Schauspiel durch Schultheater und Clubaktivitäten entwickelt."
+      "title": "Musikaktivitäten",
+      "description": "Ich spiele Kontrabass in einem Orchester. Durch die Musik entwickle ich Teamarbeit und Ausdrucksfähigkeit, und ich glaube, dass diese Erfahrungen mir auch beim Schauspiel helfen werden."
     },
     "interests": {
       "title": "Interessen",
-      "description": "Ich genieße es, Filme zu schauen, zu lesen und verschiedene Charaktere zu studieren."
+      "description": "Ich liebe es besonders zu zeichnen und teile meine Kunstwerke auf Instagram. Ich genieße auch das Kontrabassspielen und die Erkundung von Animationen und Kulturen verschiedener Länder. Diese vielfältigen Erfahrungen werden meinem Schauspiel Tiefe und Reichtum verleihen."
     }
   },
   "portfolio": {
@@ -26,8 +26,13 @@
   },
   "contact": {
     "title": "Kontakt",
-    "description": "Wenn Sie Kontakt aufnehmen möchten, kontaktieren Sie mich bitte unter der untenstehenden E-Mail-Adresse.",
-    "email": "contact@example.com"
+    "description": "Wenn Sie Kontakt aufnehmen möchten, kontaktieren Sie mich bitte über Folgendes:",
+    "email": "E-Mail",
+    "emailAddress": "hjqueeen@gmail.com",
+    "sns": "SNS",
+    "instagram": "Instagram",
+    "instagramHandle": "@imjune0_0",
+    "instagramDescription": "SNS-Konto, auf dem ich meine Kunstwerke teile"
   },
   "footer": {
     "copyright": "© 2024 Amin. Alle Rechte vorbehalten."

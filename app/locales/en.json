@@ -7,18 +7,18 @@
   },
   "hero": {
     "greeting": "Hello, I'm Amin",
-    "subtitle": "13 years old · Aspiring Film Actor",
-    "description": "I am a 13-year-old student with a passion for film and acting. I want to deliver emotions through various roles."
+    "subtitle": "12 years old · Aspiring Film Actor",
+    "description": "I am a 12-year-old student with a passion for art, orchestral music, and film. Although I don't have acting experience yet, I want to convey emotions through my acting and express the stories of various characters."
   },
   "about": {
     "title": "About Me",
     "experience": {
-      "title": "Acting Experience",
-      "description": "I have developed my passion for acting through school plays and club activities."
+      "title": "Music Activities",
+      "description": "I play the double bass in an orchestra. Through music, I am developing teamwork and expressiveness, and I believe these experiences will help me in acting as well."
     },
     "interests": {
       "title": "Interests",
-      "description": "I enjoy watching movies, reading, and studying various characters."
+      "description": "I especially love drawing and share my artwork on Instagram. I also enjoy playing the double bass and exploring animations and cultures from different countries. These diverse experiences will add depth and richness to my acting."
     }
   },
   "portfolio": {
@@ -26,8 +26,13 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "If you would like to get in touch, please contact me at the email below.",
-    "email": "contact@example.com"
+    "description": "If you would like to get in touch, please contact me through the following:",
+    "email": "Email",
+    "emailAddress": "hjqueeen@gmail.com",
+    "sns": "SNS",
+    "instagram": "Instagram",
+    "instagramHandle": "@imjune0_0",
+    "instagramDescription": "SNS account where I share my artwork"
   },
   "footer": {
     "copyright": "© 2024 Amin. All rights reserved."
